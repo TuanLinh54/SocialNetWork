@@ -9,7 +9,7 @@ export const createPost = async (req, res) => {
         const newPost = new Post({
             userId,
             firstName: user.firstName,
-            lastname: user.lastname,
+            lastName: user.lastName,
             location: user.location,
             description,
             userImagePath: user.imagePath,

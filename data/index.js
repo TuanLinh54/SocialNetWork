@@ -151,7 +151,7 @@ export const posts = [
         location: "New York, CA",
         description: "Some really long random description",
         imagePath: "post1.jpeg",
-        userimagePath: "p3.jpeg",
+        userImagePath: "p3.jpeg",
         likes: new Map([
             [userIds[0], true],
             [userIds[2], true],
@@ -173,7 +173,7 @@ export const posts = [
         description:
             "Another really long random description. This one is longer than the previous one.",
         imagePath: "post2.jpeg",
-        userimagePath: "p6.jpeg",
+        userImagePath: "p6.jpeg",
         likes: new Map([
             [userIds[7], true],
             [userIds[4], true],
@@ -196,7 +196,7 @@ export const posts = [
         description:
             "This is the last really long random description. This one is longer than the previous one.",
         imagePath: "post3.jpeg",
-        userimagePath: "p5.jpeg",
+        userImagePath: "p5.jpeg",
         likes: new Map([
             [userIds[1], true],
             [userIds[6], true],
@@ -220,7 +220,7 @@ export const posts = [
         description:
             "This is the last really long random description. This one is longer than the previous one. Man I'm bored. I'm going to keep typing until I run out of things to say.",
         imagePath: "post4.jpeg",
-        userimagePath: "p7.jpeg",
+        userImagePath: "p7.jpeg",
         likes: new Map([
             [userIds[1], true],
             [userIds[6], true],
@@ -244,7 +244,7 @@ export const posts = [
         description:
             "Just a short description. I'm tired of typing. I'm going to play video games now.",
         imagePath: "post5.jpeg",
-        userimagePath: "p8.jpeg",
+        userImagePath: "p8.jpeg",
         likes: new Map([
             [userIds[1], true],
             [userIds[3], true],
@@ -268,7 +268,7 @@ export const posts = [
         description:
             "For the last time, I'm going to play video games now. I'm tired of typing. I'm going to play video games now.",
         imagePath: "post6.jpeg",
-        userimagePath: "p9.jpeg",
+        userImagePath: "p9.jpeg",
         likes: new Map([
             [userIds[1], true],
             [userIds[2], true],
