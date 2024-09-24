@@ -33,8 +33,12 @@ app.use(morgan("common"));
 app.use(bodyParser.json({ limit: "30mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors());
+// app.use(cors({
+//     origin: 'http://localhost:3000'
+// }));
 app.use(cors({
-    origin: 'http://localhost:3000'
+    origin: ['https://social-net-work-fe.vercel.app/'],
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
 }));
 
 app.use("/assets", express.static(path.join(__dirname, 'public/assets')));
